@@ -1,13 +1,12 @@
-function getFibonacci(n)
+function getFibonacciThNumber(n)
 {
  if (n < 2)
  {
     return n;
  }
- return getFibonacci(n-1) + getFibonacci(n-2);
+ return getFibonacciThNumber(n-1) + getFibonacciThNumber(n-2);
 }
 
-console.log(getFibonacci(5)); 
-console.log(getFibonacci(6));
-console.log(getFibonacci(15));
-console.log(getFibonacci(345));
+console.log(getFibonacciThNumber(5)); 
+// console.log(getFibonacci(6));
+// console.log(getFibonacci(15));
